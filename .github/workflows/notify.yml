@@ -1,0 +1,32 @@
+name: game-notifier
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may run it a few minutes late)
+  workflow_dispatch:          # lets you press "Run workflow" by hand
+
+permissions:
+  contents: write             # needed to save state.json back to the repo
+
+concurrency:
+  group: game-notifier
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for news
+        run: python3 notifier.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          REMIND_HOURS: "3"
+
+      - name: Save state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || (git commit -m "Update notifier state" && git push)
