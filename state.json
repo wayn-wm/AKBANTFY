@@ -1,0 +1,52 @@
+{
+ "seen": {
+  "ak-ann-1665": 1795372725,
+  "ak-news-5162": 1795372725,
+  "ak-news-5092": 1795372725,
+  "ak-news-5045": 1795372725,
+  "ak-news-4980": 1795372725,
+  "ak-news-4814": 1795372725,
+  "ak-news-4797": 1795372725,
+  "ak-news-4683": 1795372725,
+  "ak-news-4635": 1795372725,
+  "ak-news-4452": 1795372725,
+  "ba-710": 1795372726,
+  "ba-709": 1795372726,
+  "ba-706": 1795372726,
+  "ba-705": 1795372726,
+  "ba-702": 1795372726,
+  "ba-698": 1795372726
+ },
+ "reminders": [
+  {
+   "key": "ak-ann-1665",
+   "game": "Arknights",
+   "kind": "Maintenance",
+   "title": "Maintenance",
+   "link": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1665.html?t=1795316400",
+   "start": "2026-11-23T08:00:00-07:00",
+   "note": null,
+   "sent": false
+  },
+  {
+   "key": "ak-news-5162",
+   "game": "Arknights",
+   "kind": "Event",
+   "title": "POSITIONAL FOOTBALL CHAMPIONSHIP LIMITED-TIME EVENT OPEN",
+   "link": "https://arknights.global/news/5162",
+   "start": "2026-11-23T08:00:00-07:00",
+   "note": null,
+   "sent": false
+  },
+  {
+   "key": "ak-news-5092",
+   "game": "Arknights",
+   "kind": "Event",
+   "title": "[ARKNIGHTS X MONSTER HUNTER] SIDESTORY: THUNDER IN THE AZURE DREAM OPEN",
+   "link": "https://arknights.global/news/5092",
+   "start": "2026-11-30T03:59:00-07:00",
+   "note": null,
+   "sent": false
+  }
+ ]
+}
