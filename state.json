@@ -19,26 +19,6 @@
  },
  "reminders": [
   {
-   "key": "ak-ann-1665",
-   "game": "Arknights",
-   "kind": "Maintenance",
-   "title": "Maintenance",
-   "link": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1665.html?t=1795316400",
-   "start": "2026-11-23T08:00:00-07:00",
-   "note": null,
-   "sent": false
-  },
-  {
-   "key": "ak-news-5162",
-   "game": "Arknights",
-   "kind": "Event",
-   "title": "POSITIONAL FOOTBALL CHAMPIONSHIP LIMITED-TIME EVENT OPEN",
-   "link": "https://arknights.global/news/5162",
-   "start": "2026-11-23T08:00:00-07:00",
-   "note": null,
-   "sent": false
-  },
-  {
    "key": "ak-news-5092",
    "game": "Arknights",
    "kind": "Event",
