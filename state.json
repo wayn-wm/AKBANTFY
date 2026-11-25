@@ -29,26 +29,6 @@
    "start": "2026-11-30T03:59:00-07:00",
    "note": null,
    "sent": false
-  },
-  {
-   "key": "ba-718",
-   "game": "Blue Archive JP",
-   "kind": "Event",
-   "title": "【イベント】「踊らされし芸術～象牙の塔と招かれざる客～」紹介",
-   "link": "https://bluearchive.jp/news/newsJump/718",
-   "start": "2026-11-25T11:00:00+09:00",
-   "note": "starts after that day's maintenance",
-   "sent": false
-  },
-  {
-   "key": "ba-717",
-   "game": "Blue Archive JP",
-   "kind": "Maintenance",
-   "title": "メンテナンスのお知らせ（11/25 11:00 - 19:00予定）",
-   "link": "https://bluearchive.jp/news/newsJump/717",
-   "start": "2026-11-25T11:00:00+09:00",
-   "note": null,
-   "sent": false
   }
  ]
 }
