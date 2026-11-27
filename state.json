@@ -17,7 +17,8 @@
   "ba-702": 1795372726,
   "ba-698": 1795372726,
   "ba-718": 1795524969,
-  "ba-717": 1795524970
+  "ba-717": 1795524970,
+  "ak-news-5229": 1795771207
  },
  "reminders": [
   {
@@ -27,6 +28,16 @@
    "title": "[ARKNIGHTS X MONSTER HUNTER] SIDESTORY: THUNDER IN THE AZURE DREAM OPEN",
    "link": "https://arknights.global/news/5092",
    "start": "2026-11-30T03:59:00-07:00",
+   "note": null,
+   "sent": false
+  },
+  {
+   "key": "ak-news-5229",
+   "game": "Arknights",
+   "kind": "Event",
+   "title": "[ARKNIGHTS X MONSTER HUNTER] SIDESTORY: A FLURRY TO THE FLAME RERUN",
+   "link": "https://arknights.global/news/5229",
+   "start": "2026-11-30T08:00:00-07:00",
    "note": null,
    "sent": false
   }
